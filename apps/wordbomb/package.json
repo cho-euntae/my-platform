@@ -1,0 +1,15 @@
+{
+  "name": "@my-platform/wordbomb",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "끄투 스타일의 멀티플레이 단어 게임",
+  "private": true,
+  "scripts": {
+    "dev": "node dev-server.js",
+    "install:all": "pnpm install",
+    "build": "pnpm -r build",
+    "backend": "pnpm -F backend run dev",
+    "frontend": "pnpm -F frontend run dev"
+  },
+  "devDependencies": {}
+}
